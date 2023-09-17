@@ -14,7 +14,7 @@ jobs:
         run: |
           echo "Start the shopping store application"
           chmod +x ./shopping-store-windows-386.exe &
-          echo "Intall dependecies from lockfile"
+          echo "Install dependecies from lockfile"
           npm ci
           echo "Run playwright tests"
           npm run test:ci
