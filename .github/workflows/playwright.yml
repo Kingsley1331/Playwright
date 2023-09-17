@@ -12,7 +12,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Run tests
         run: |
-          npx playwright install chrome &
           echo "Start the shopping store application"
           chmod +x ./shopping-store-windows-386.exe &
           echo "Install dependencies from lockfile"
