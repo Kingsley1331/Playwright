@@ -11,7 +11,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Install playwright browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install chrome
       - name: Run tests
         run: |
           echo "Start the shopping store application"
