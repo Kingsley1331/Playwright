@@ -83,6 +83,5 @@ export class PaymentPage {
         await this.payButton.click()
 
         await this.page.waitForURL(/\/thank-you/, { timeout: 3000 })
-        await this.page.pause()
    }
 }
