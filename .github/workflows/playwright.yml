@@ -15,7 +15,7 @@ jobs:
       - name: Run tests
         run: |
           echo "Start the shopping store application"
-          chmod +x ./shopping-store-mac-amd64 &
+          chmod +x ./shopping-store-windows-386.exe &
           echo "Install dependencies from lockfile"
           npm ci
           echo "Run playwright tests"
